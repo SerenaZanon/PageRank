@@ -22,7 +22,6 @@ $$
         M[i, j] =
         \begin{cases}
             \text{$\frac{1}{o(j)}$ if $j \xrightarrow{} i$} \\
-            \text{$\frac{1}{n}$ if o(j) = 0} \\
             \text{0 otherwise}
         \end{cases}
     \]
@@ -46,12 +45,14 @@ Solution (leading to the so called Google Matrix):
 
 $v^{t+1} = \beta Mv^t + (1 - \beta)\frac{1}{n}$ with 
 $$
-M[i, j] =
-\begin{cases} 
-\frac{1}{o(j)} & \text{se } j \to i \\ 
-\frac{1}{n} & \text{se } o(j) = 0 \\ 
-0 & \text{altrimenti}
-\end{cases}
+    \[
+        M[i, j] =
+        \begin{cases}
+            \text{$\frac{1}{o(j)}$ if $j \xrightarrow{} i$} \\
+            \text{$\frac{1}{n}$ if o(j) = 0} \\
+            \text{0 otherwise}
+        \end{cases}
+    \]
 $$
 
 - with probability β we follow M, with probability (1-β) we jump to a random node
