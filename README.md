@@ -19,13 +19,14 @@ with
 
 $$
 M[i, j] =
-\left\{
+\left \{
 \begin{array}{ll}
 \frac{1}{o(j)} & \text{se } j \to i \\ 
 0 & \text{altrimenti}
 \end{array}
 \right.
 $$
+
 
 
 The above update rule, defines an iterative process:
