@@ -18,13 +18,11 @@ $$
 with 
 
 $$
-M[i, j] =
-\left\{
+M[i, j] = {
 \begin{array}{ll}
 \frac{1}{o(j)} & \text{se } j \rightarrow i \\
 0 & \text{altrimenti}
 \end{array}
-\right.
 $$
 
 
