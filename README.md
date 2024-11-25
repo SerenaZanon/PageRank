@@ -41,6 +41,7 @@ Solution (leading to the so called Google Matrix):
 - Teleportation and dead ends removal
 
 $v^{t+1} = \beta Mv^t + (1 - \beta)\frac{1}{n}$ with 
+$$
 \[
 M[i, j] =
 \begin{cases} 
@@ -49,6 +50,7 @@ M[i, j] =
 0 & \text{altrimenti}
 \end{cases}
 \]
+$$
 
 - with probability β we follow M, with probability (1-β) we jump to a random node
 - dead end nodes link to all nodes of the graph
