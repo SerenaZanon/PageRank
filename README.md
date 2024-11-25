@@ -18,13 +18,11 @@ $$
 with 
 
 $$
-    \[
         M[i, j] =
         \begin{cases}
             \text{$\frac{1}{o(j)}$ if $j \xrightarrow{} i$} \\
             \text{0 otherwise}
         \end{cases}
-    \]
 $$
 
 
@@ -49,14 +47,12 @@ v^{t+1} = \beta Mv^t + (1 - \beta)\frac{1}{n}$$
 with 
 
 $$
-    \[
         M[i, j] =
         \begin{cases}
             \text{$\frac{1}{o(j)}$ if $j \xrightarrow{} i$} \\
             \text{$\frac{1}{n}$ if o(j) = 0} \\
             \text{0 otherwise}
         \end{cases}
-    \]
 $$
 
 - with probability β we follow M, with probability (1-β) we jump to a random node
