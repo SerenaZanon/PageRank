@@ -1,0 +1,17 @@
+matrice - costruzione
+adHocDataset_025: 6 713 ms	196 168 024 byte
+adHocDataset_05: 13 572 ms	196 168 024 byte
+adHocDataset_075: 20 646 ms	196 168 024 byte
+adHocDataset_1: 22 740 ms	196 168 024 byte
+
+column wise - costruzione
+adHocDataset_025: 6 588 ms	49 161 024 byte
+adHocDataset_05: 13 897 ms	98 154 024 byte
+adHocDataset_075: 20 387 ms	147 147 024 byte
+adHocDataset_1: 22 583 ms	196 140 024 byte
+smallDataset_sparse: 41 ms	763 332 byte
+smallDataset_dense: 437 ms	3 225 124 byte
+mediumDataset_sparse: 429 ms	4 838 576 byte
+mediumDataset_dense: 2 011 ms	11 691 976 byte
+bigDataset_sparse: 1 377 ms	16 756 008 byte
+bigDataset_dense: 17 152 ms	76 320 172 byte

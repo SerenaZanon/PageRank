@@ -1,0 +1,16 @@
+# ninja log v5
+1237	1549	7330614839885492	Serena_Zanon_887050_1_assignment.exe	5e1fa522f1bf91e7
+22	1518	7330029951326166	CMakeFiles/Serena_Zanon_887050_1_assignment.dir/dataStructure.cpp.obj	15d51afefeb1e8e9
+3	1122	7331492212063752	CMakeFiles/Serena_Zanon_887050_1_assignment.dir/utility_implementation.cpp.obj	109fc418eb7a50b7
+2	172	7335196042060827	build.ninja	415743b25311b8d8
+3	625	7329838162963217	CMakeFiles/Serena_Zanon_887050_1_assignment.dir/readingFiles.cpp.obj	4402a9619524565
+14	1182	7330029947969931	CMakeFiles/Serena_Zanon_887050_1_assignment.dir/sequentialBasic.cpp.obj	664d4b33b79780d6
+30	1584	7330029952014042	CMakeFiles/Serena_Zanon_887050_1_assignment.dir/processingFunctions.cpp.obj	9e6392f0372313d1
+15	960	7330612016752790	CMakeFiles/Serena_Zanon_887050_1_assignment.dir/sequentialOptimazed.cpp.obj	6ba1f11d3d26f83
+21	1029	7330612017442864	CMakeFiles/Serena_Zanon_887050_1_assignment.dir/parallel.cpp.obj	4b2c058837031a83
+24	685	7330785018896292	CMakeFiles/Serena_Zanon_887050_1_assignment.dir/newTrialSingle.cpp.obj	dca58abb4c035f6b
+18	759	7330785019624197	CMakeFiles/Serena_Zanon_887050_1_assignment.dir/parallelV2.cpp.obj	fb9def30dc90a37f
+13	766	7330785019686693	CMakeFiles/Serena_Zanon_887050_1_assignment.dir/parallelV1.cpp.obj	73d76edf491b99fd
+29	980	7330785021838102	CMakeFiles/Serena_Zanon_887050_1_assignment.dir/help.cpp.obj	1673851d4a715c70
+16	805	7331492208935060	CMakeFiles/Serena_Zanon_887050_1_assignment.dir/pageRankColumnWise.cpp.obj	fe97de90e4f96499
+22	813	7331492209000460	CMakeFiles/Serena_Zanon_887050_1_assignment.dir/columnSingle.cpp.obj	7084d63cd92c80bc
