@@ -18,13 +18,14 @@ $$
 with 
 
 $$
-M[i, j] =
-\left \{
-\begin{array}{ll}
-\frac{1}{o(j)} & \text{se } j \to i \\ 
-0 & \text{altrimenti}
-\end{array}
-\right.
+    \[
+        M[i, j] =
+        \begin{cases}
+            \text{$\frac{1}{o(j)}$ if $j \xrightarrow{} i$} \\
+            \text{$\frac{1}{n}$ if o(j) = 0} \\
+            \text{0 otherwise}
+        \end{cases}
+    \]
 $$
 
 
