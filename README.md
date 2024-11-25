@@ -43,7 +43,11 @@ The Web Graph does not satisfy this criteria (it has dead ends and cycles)!
 Solution (leading to the so called Google Matrix):
 - Teleportation and dead ends removal
 
-$v^{t+1} = \beta Mv^t + (1 - \beta)\frac{1}{n}$ with 
+$$
+v^{t+1} = \beta Mv^t + (1 - \beta)\frac{1}{n}$$ 
+
+with 
+
 $$
     \[
         M[i, j] =
