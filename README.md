@@ -40,7 +40,15 @@ The Web Graph does not satisfy this criteria (it has dead ends and cycles)!
 Solution (leading to the so called Google Matrix):
 - Teleportation and dead ends removal
 
-$v^{t+1} = \beta Mv^t + (1 - \beta)\frac{1}{n}$ with $M[i, j] = \left\{ \begin{array}{ll} \frac{1}{o(j)} & \text{if } j \rightarrow i \\ \frac{1}{n} $ \text{if } o(j) = 0 \\ 0 & \text{otherwise} \end{array} \right$
+$v^{t+1} = \beta Mv^t + (1 - \beta)\frac{1}{n}$ with 
+\[
+M[i, j] =
+\begin{cases} 
+\frac{1}{o(j)} & \text{se } j \to i \\ 
+\frac{1}{n} & \text{se } o(j) = 0 \\ 
+0 & \text{altrimenti}
+\end{cases}
+\]
 
 - with probability β we follow M, with probability (1-β) we jump to a random node
 - dead end nodes link to all nodes of the graph
