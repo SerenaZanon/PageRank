@@ -5,19 +5,28 @@ PageRank measures the importance of a node i in a graph G as the weighted sum of
 
 Let v be a vector storing the importance of each node:
 - v[i] = importance of the i-th node, and elements of v sum up to 1
-- The contribution of each neighbor j is normalized by its out-degree o(j) \\
+- The contribution of each neighbor j is normalized by its out-degree o(j)
+
   $v^{t+1}[i] = \sum_{j \rightarrow i} \frac{v^t[j]}{o(j)}$
 
 Note that the above update rule can be rewritten as a matrix-vector multiplication:
 
-$v^{t+1} = Mv^t$ with 
-$$M[i, j] =
+$$
+v^{t+1} = M v^t
+$$
+
+with 
+
+$$
+M[i, j] =
 \left\{
 \begin{array}{ll}
-\frac{1}{o(j)} & \text{if } j \rightarrow i \\
-0 & \text{otherwise}
+\frac{1}{o(j)} & \text{se } j \rightarrow i \\
+0 & \text{altrimenti}
 \end{array}
-\right$$
+\right.
+$$
+
 
 The above update rule, defines an iterative process:
 - we start from a random vector v0, ( v0 sums up to 1, it is a probability distribution)
